@@ -1,0 +1,75 @@
+<!doctype>
+<html>
+  <head><title></title>
+  <style>
+     .center   
+      {
+         margin-left: auto;
+         margin-right: auto;
+      }
+   </style>
+</head> 
+  <body>
+    <h1 style="text-align:center"><b>STUDENT REGISTRATION FORM FOR STUDENTS</b></h1>
+    <fieldset>
+    <legend><i>ENTER YOUR DETAILS</i></legend>
+    <table class="center" style="width:50%">
+    <form>
+         <tr >
+            <td><label for="firstname">First Name</label></td>
+            <td><input type="text" name="firstname" id="firstname" value="enter your first name"></td></tr>
+        <tr>
+           <td><label for="lastname">last Name</label></td>
+           <td><input type="text" name="lastname" id="lastname" value="enter your last name"></td></tr>
+        <tr>
+            <td><label for="email">e-mail</label></td>
+             <td><input type="email" id="email" name="email" value="eg.a.@gmail.com"></td></tr>
+        <tr>
+            <td><label for="password">Password</label></td>
+            <td><input type="password" id="password" name="password" value="**********"></td></tr>
+         <tr>
+            <td><label for="dob">Date Of Birth</label></td>
+            <td><input type="date" id="dob" name="dob"></td></tr>
+         <tr>
+            <td><label for="ph">contact Number</label></td>
+            <td><input type="tel" id="ph" name="ph" value="123456789"></td></tr>
+          <tr>
+            <td><label for="weight">Weight of student</label></td>
+             <td><input type="number" id="weight" name="weight" value="40"></td></tr>
+          <tr>
+            <td>Gender</td>
+            <td><input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label> 
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">females</label>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">other</label>
+            </td></tr>
+          <tr>
+              <td><label for="color">Color</label></td>
+              <td><input type="color" id="color" name="color" value></td></tr>
+           <tr rowspan="3">
+              <td>Hobbies</td>
+              <td><input type="checkbox" name="singing" value="singing" checked>
+                   <label for="singing">Singing</label><br>
+                   <input type="checkbox" name="dancing" value="dancing">
+                   <label for="dancing">dancing</label><br>
+                    <input type="checkbox" name="sports" value="sports">
+                   <label for="sports">sports</label><br>
+              </td></tr>
+          <tr>
+             <td><label for="resume">Resume</label>
+             <td><input type="file" name="resume" id="resume"></td></tr>
+         <tr>
+             <td><label for="skill">Upload skill certificate</label>
+             <td><input type="file" name="skill" id="skill"></td></tr>
+         <tr colspan="2">
+           <td style="text-align:center">
+                <input type="submit" value="register">
+                <input type="reset" value="reset data">
+                <input type="submit" value="submit data"></td> </tr>  
+    </form>
+   </table>
+    </fieldset>
+  </body>
+<html>

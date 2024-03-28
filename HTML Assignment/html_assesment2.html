@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		*
+		{
+			margin: 0;
+			padding: 0;
+		}
+		table,th,td
+		{
+			margin-left: 10px;
+			padding: 5px;
+			border-collapse: collapse;
+		}
+		th
+		{
+			margin-left: 10px;
+			text-align: left;
+			padding: 2px;
+			padding-left: 10px;
+		}
+		.text
+		{
+			font-size: 1.5rem;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<table border="2px" width="100%" height="100%">
+		<tr>
+			<th colspan="4">Assignment 1</th>
+		</tr>
+		<tr>
+			<th rowspan="3">Student</tho>
+			<th>name</th>
+			<th>Hashem</th>
+			<th><a href="">www.zu.edu.io</a></th>
+		</tr>
+		<tr>
+			<th>E-mail</th>
+			<th><a href="">H@zu.edu.io</a></th>
+			<td colspan="2" rowspan="2" margin="2px">logo picture</td>
+		</tr>
+		<tr>
+			<th>ID</th>
+			<th >20201212</th>
+		</tr>
+		<tr>
+			<th>Courses</th>
+			<th colspan="3">
+				<ol type="1">
+					<li>Programing Languages:
+						<ol type="1">
+							<li>C#</li>
+							<li>Java</li>
+							<li>Python</li>
+						</ol>
+					</li>
+					<li>Math
+						<ul type="square">
+							<li>Calculus 1</li>
+							<li>Linear algebra</li>
+						</ul>
+					</li>
+				</ol>
+			</th>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<p class="text">Create new e-mail</p><br>
+				This form is to Create a new e-mail at zardqa university.<br><br>
+				<form>
+					<label for="fname">first name:</label>
+					<input type="text" id="fname" name=""><br><br>
+					<label for="lname">last name:</label>
+					<input type="text" id="lname" name=""><br><br>
+					<label for="uname">user name:</label>
+					<input type="text" id="uname" value="name@zu.edu.jo" name=""><br><br>
+					<label for="pname">password:</label>
+					<input type="password" id="pname" name=""><br><br>
+					<label for="birth">birth date:</label>
+					<input type="date" id="birth" name=""><br><br>
+					<label for="mobile">mobile number:</label>
+					<input type="number" id="mobile" name=""><br><br>
+					sex: 
+					<select>
+						<option>male</option>
+						<option>female</option>
+					</select><br><br>
+					<input type="submit" value="submit">
+				</form>
+			</td>
+		</tr>
+	
+	</table>
+
+</body>
+</html>

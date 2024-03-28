@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <table class="container">
+        <tr>
+            <th class="heading">Step 1: Your details</th>
+        </tr>
+        <tr>
+            <td class="table-data">
+                <label for="Name">Name</label>
+                <input class="input" type="text" id="Name" placeholder="First and last name">
+            </td>
+        </tr>
+        <tr>
+            <td class="table-data">
+                <label for="Email">Email</label>
+                <input class="input" type="text" id="Email" placeholder="example@domain.com">
+            </td>
+        </tr>
+        <tr>
+            <td class="table-data">
+                <label for="Phone">Phone</label>
+                <input class="input" type="text" id="Phone" placeholder="Eg. +447500000000000">
+            </td>
+        </tr>
+        <tr>
+            <th class="heading">Step 2 : Delivery address</th>
+        </tr>
+        <tr>
+            <td class="table-data">
+                <label for="Address">Address</label>
+                <textarea name="Address" id="Address" placeholder="Enter the address here" cols="30" rows="10" class="input"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td class="table-data">
+                <label for="Post code">Post code</label>
+                <input class="input" type="text" id="Post code" placeholder="Enter the post code here ">
+            </td>
+        </tr>
+        <tr>
+            <td class="table-data">
+                <label for="Country">Country</label>
+                <input class="input" type="text" id="Country">
+            </td>
+        </tr>
+        <th class="heading">Step 3 : Card details</th>
+        </tr>
+        <tr>
+            <td class="table-data">
+                <label>Card type</label>
+                <br><br>
+                <input class="radiobutton" type="radio" id="VISA" name="cardtype">
+                <img class="card-logo" src="visa.jpg" alt="visa logo">
+                <label class="radio-label" for="VISA">VISA</label>
+
+                <input class="radiobutton" type="radio" id="AmEx" name="cardtype">
+                <img class="card-logo" src="amex.jpg" alt="amex logo">
+                <label class="radio-label" for="AmEx">AmEx</label>
+
+                <input class="radiobutton" type="radio" id="Mastercard" name="cardtype">
+                <img class="card-logo" src="mastercard.png" alt="master card logo">
+                <label class="radio-label" for="Mastercard">Mastercard</label>
+            </td>
+        </tr>
+        <tr>
+            <td class="table-data">
+                <label for="Card number">Card number</label>
+                <input class="input" type="text" id="Card number">
+            </td>
+        </tr>
+        <tr>
+            <td class="table-data">
+                <label for="Security code">Security code</label>
+                <input class="input" type="text" id="Security code">
+            </td>
+        </tr>
+        <tr>
+            <td class="table-data">
+                <label for="Name or card">Name or card</label>
+                <input class="input" type="text" id="Name or card">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input class="button" type="button" value="BUY IT!">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

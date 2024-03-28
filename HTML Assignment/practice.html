@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            padding: 0%;
+            margin: 0%;
+        }
+        body
+        {
+            display: grid;
+            place-items: center;
+        }
+        .box
+        {
+            background-color: rgb(84, 194, 230);
+            height: 700px;
+            width: 900px; 
+            padding: 5%;
+            /* display: grid;
+            place-items: start; */
+            color: white;
+            /* background-size: cover; */
+            background-position: center;   
+            margin: 3% auto;
+        }
+        button
+        {
+            padding: 5PX;
+            margin-top: 5PX;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>Contact Form</h1><br>
+        <h3>Please Fill your information and We'll be Sending your order in on time</h3>
+        <form>
+            <table>
+                <tr>
+                    <td><label for="name">Your Name</label></td>
+                    <td><input type="text" id="name">
+                    <input type="text" id="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Your Email</label></td>
+                    <td colspan="2"><input type="text" id="email"></td>
+                </tr>
+            </table>
+            <hr>
+            <button value="SUBMIT FORM">SUBMIT FORM</button>
+        </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,78 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap'); */
+*{
+    margin : 0px; 
+    padding: 0;
+    font-family: 'Baloo Bhai 2';
+}
+
+body{
+    background-color: #F0F8FF;
+}
+
+.container{
+    border-radius: 10px;;
+    text-align: left;
+    margin : auto;
+    margin-top: 15px;
+    min-height: 50vh;
+    min-width: 50vw;
+    background: linear-gradient(to right,red,orange,yellow,green,blue,purple);
+    padding : 15px;
+}
+
+.table-data{
+    background-color: rgba(255, 255, 255, 0.413);
+    padding : 15px;
+    border: 2px solid white;
+    border-radius: 10px;;
+    margin : 2px;
+    padding-right : 100px;
+}
+
+
+.input{
+    padding: 5px;
+    float : right;
+    border-radius: 5px;
+    border: none;
+    margin : 0px auto;
+    min-width: 250px;
+}
+
+.radiobutton{
+    margin-left: 30px;;
+}
+
+.heading{
+    display : block;
+    margin : 5px;
+}
+
+.card-logo{
+    width: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.radio-label{
+    padding : 5px;
+}
+
+.button{
+    display : block;
+    margin : auto;
+    margin-top : 5px;
+    background-color:rgb(61, 61, 61);
+    color : white;
+    border-radius: 10px;
+    min-width : 17vh;
+    transition: 0.8s;
+    border : none;
+    font-weight: 600px;
+}
+
+.button:hover{
+    /* transition: 0.8s; */
+    background-color: white;
+    color : black;
+}

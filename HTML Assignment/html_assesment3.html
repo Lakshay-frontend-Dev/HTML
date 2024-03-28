@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		*/*
+		{
+			margin: 0;
+			padding: 0;
+		}*/
+		body
+		{
+/*			background: yellowgreen;*/
+/*			margin: 20px;*/
+			justify-content: center;
+/*			border: 10px solid white;*/
+			font-size: 1rem;
+			display: grid;
+			place-items: center;
+		}
+		table th,td
+		{
+			border: none;
+			margin: 800px;
+
+/*			margin-top: 30px;*/
+
+			/*margin-left: 10px;
+			margin-right: 10px;*/
+		}
+		th
+		{
+			text-align: left;
+/*			margin: 200px;*/
+/*			margin-top: 100px;*/
+		}
+		 td
+		{
+			border: 2px solid white;
+			background:#ffffff7d ;
+		}
+		table input[type="submit"]
+		{
+			border: 1px solid #00000087;
+			background: #00000087;
+			border-radius:10px ;
+			width: 68px;
+			color: white;
+			justify-content: center;
+			left: 50px;
+			margin-left: 100px;
+			display: grid;
+			place-items: center;
+		}
+		table img
+		{
+			margin-top: 2px;
+			margin-left: 2px;
+			margin-right: 2px;
+		}
+		table input[type="text"],table input[type="number"]
+		{
+			padding: 10px;
+			margin-top: 10px;
+			margin-left: 50px;
+			text-align: center;
+		}
+		.ab
+		{
+			background: yellowgreen;
+
+			height: 100%;
+			width: 100%;
+			border-radius: 20px;
+			border: 10px gray;
+			justify-content: center;
+			display: grid;
+			place-items: center;
+		}
+		input
+		{
+			width: 270px;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="ab">
+		<form>
+			<table>
+			<tr><th colspan="3"><h3>Step 1: Your details</h3></th></tr>
+			<tr><td><label for="name">Name</label><input type="text" id="name"  placeholder="First and Last name"></td></tr>
+			<tr>
+				<td><label for="email">Email</label>
+				<input type="text" id="email" placeholder="example@domain.com"><br></td>
+			</tr>
+			<tr><td><label for="phone">Phone</label><input type="number" placeholder="Eg. +44750000000" id="phone"></td></tr>
+			<tr><th><h3>Step 2: Delivery address</h3></th></tr>
+			<tr><td><label for="address">Address <br></label>
+				<textarea cols="30px" rows="5px"></textarea><br>
+			<tr><td><label for="post">Post Code</label><input type="number" name="postcode"></td></tr>
+			<tr><td><label for="country">Country</label><input type="text" id="country"></td></tr>
+			<tr><th><h3>Step 3: Card details</h3></th></tr>
+			<tr><td><label for="card">card type</label><br><br>
+			<input type="radio" id="visa"><img src="pic2.jpg" height="15px" width="20px"></img><label for="visa">visa</label>
+			<input type="radio" id="amex" name=""><img src="pic2.jpg" height="15px" width="20px"><label for="amex">AmEx</label>
+			<input type="radio" id="Mastercard" name=""><img src="pic2.jpg" height="15px" width="20px"><label for="Mastercard">Mastercard</label></td></tr>
+			<tr><td><label for="cardnumber">Card number</label><input type="text" id="cardnumber"></td></tr>
+			<tr><td><label for="security">Security code</label><input type="text" id="security"></td></tr>
+			<tr><td><label for="cardname">Name on card</label><input type="text" id="cardname"><br></td></tr>
+			<tr style="text-align: center;"><th><input type="submit" value="BUY IT!"></th></tr>
+			</table>
+		</form>
+		</div>
+</body>
+</html>
